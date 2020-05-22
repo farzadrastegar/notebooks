@@ -59,7 +59,7 @@ cd ./microservices/support/discovery-server
 ```
 
 ##### Node 2 (edge server)
-Reminder: before running the code snippet below, replace `YOUR_EUREKA_IP_HERE` with your Node 1 IP address.
+Reminder: before running the code snippet below, replace `YOUR_EUREKA_IP_HERE` with your Node 1 IP address (see [this](./img/labs_play-with-docker_com.png) picture).
 ```shell
 # Run the edge server from inside the blog-microservices directory
 cd ./microservices/support/edge-server
@@ -68,7 +68,7 @@ sed -i -e 's/192.168.0.08/YOUR_EUREKA_IP_HERE/' ./src/main/resources/application
 ```
 
 ##### Node 3 (the core services)
-Reminder: before running the code snippet below, replace `YOUR_EUREKA_IP_HERE` (find three spots) with your Node 1 IP address.
+Reminder: before running the code snippet below, replace `YOUR_EUREKA_IP_HERE` (find three spots) with your Node 1 IP address (see [this](./img/labs_play-with-docker_com.png) picture).
 ```shell
 # Run the core services from inside the blog-microservices directory
 cd ./microservices
@@ -87,7 +87,7 @@ cd core/review-service; (sed -i -e 's/192.168.0.08/YOUR_EUREKA_IP_HERE/' ./src/m
 ```
 
 ##### Node 4 (the composite service)
-Reminder: before running the code snippet below, replace `YOUR_EUREKA_IP_HERE` with your Node 1 IP address.
+Reminder: before running the code snippet below, replace `YOUR_EUREKA_IP_HERE` with your Node 1 IP address (see [this](./img/labs_play-with-docker_com.png) picture).
 ```shell
 # Run the composite service from inside the blog-microservices directory
 cd ./microservices/composite/product-composite-service
