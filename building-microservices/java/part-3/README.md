@@ -1,10 +1,10 @@
 ## What is this all about?
 
-This is Part 3 of a series about building microservices with Spring Cloud and Netflix OSS. See [this link](https://callistaenterprise.se/blogg/teknik/2015/04/27/building-microservices-part-3-secure-APIs-with-OAuth/) for further detail.
+This is Part 3 of a series about building microservices with Spring Cloud and Netflix OSS. See [this link](https://callistaenterprise.se/blogg/teknik/2015/04/27/building-microservices-part-3-secure-APIs-with-OAuth/) for further detail. For more info about OAuth 2.0, see this [tutorial](http://tutorials.jenkov.com/oauth2/index.html).
 
 ## How to run?
 
-In order to run code related to Part 1, there are three options.
+In order to run code related to Part 3, there are two options.
 * Follow [the instructions](https://callistaenterprise.se/blogg/teknik/2015/04/27/building-microservices-part-3-secure-APIs-with-OAuth/)  and run code in your favorite environment.
 * Use **Docker** (tested on [Play with Docker](https://labs.play-with-docker.com/)).
 
