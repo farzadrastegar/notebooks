@@ -1,6 +1,6 @@
 The commands in the notebooks were tested with three nodes on labs.play-with-docker.com using Ubuntu 16.04.
 
-**Note**: If you are using the [Play with Docker](labs.play-with-docker.com) environment, you need to copy/paste the code of Jupyter cells into your nodes after creating an Ubuntu containier in each node using the commands below.
+**Note**: If you are using the [Play with Docker](labs.play-with-docker.com) environment, you need to copy/paste the code of Jupyter cells into your nodes after creating an Ubuntu containier in each node using the commands below. There are three Jupyter notebooks in Part 2, so three nodes are required here.
 
 ```shell
 docker run -it -d --name ubuntu16 --net=host ubuntu:16.04
