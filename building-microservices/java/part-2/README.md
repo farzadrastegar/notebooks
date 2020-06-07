@@ -9,10 +9,10 @@ docker exec -it ubuntu16 /bin/bash
 
 Make sure to run RabbitMQ on node 2 before running its corresponding notebook.
 
-#### Rabbitmq in Docker
+### Rabbitmq in Docker
 `docker run -it -d --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3-management`
 
-#### How to run a Jupyter notebook using Docker
+### How to run a Jupyter notebook using Docker
 
 **Note**: Ignore this section if you are using the Play with Docker envirenoment for Part 2.
 
