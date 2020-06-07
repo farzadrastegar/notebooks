@@ -106,6 +106,6 @@ Reminder: before running the code snippet below, replace `YOUR_EUREKA_IP_HERE` w
 cd ./microservices
 
 # Run the product api service
-cd api/product-api-service; (sed -i -e 's/192.168.0.08/YOUR_EUREKA_IP_HERE/' ./src/main/resources/application.yml); (nohup ./gradlew bootRun >out 2>&1 &); cd -
+cd api/product-api-service; (sed -i -e 's/192.168.0.08/YOUR_EUREKA_IP_HERE/g' ./src/main/resources/application.yml); (nohup ./gradlew bootRun >out 2>&1 &); cd -
 ```
 
